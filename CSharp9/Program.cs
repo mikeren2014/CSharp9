@@ -3,4 +3,4 @@ using CSharp9;
 
 Console.WriteLine("Hello, C# 9");
 
-new RecordTester().Demo_Deconstruct();
+new RecordTester().Demo();
