@@ -1,15 +1,6 @@
 ﻿using System;
+using CSharp9;
 
-namespace CSharp9
-{
-    //TODO: Top-level statements
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            new RecordTypes().Test();
+Console.WriteLine("Hello, C# 9");
 
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+new RecordTester().Demo_Deconstruct();
